@@ -20,7 +20,21 @@ docs/ajax-loader.gif
 package-lock.json
 .DS_Store
 
-
+__test__
+.github
+docs
+examples
+src
+.babelrc
+.eslintrc
+.npmignore
+.travis.yml
+CHANGELOG.md
+CONTRIBUTING.md
+gulpfile.js
+jest.config.js
+test-setup.js
+test-utils.js
 demos
 demos1
 test
