@@ -4424,7 +4424,7 @@
                       slideClass
                     ),
                     tabIndex: "-1",
-                    "aria-hidden": false,
+                    "aria-hidden": !slideClasses["slick-active"],
                     style: _objectSpread(
                       _objectSpread(
                         {
@@ -4482,7 +4482,7 @@
                           slideClasses,
                           slideClass
                         ),
-                        "aria-hidden": false,
+                        "aria-hidden": !slideClasses["slick-active"],
                         style: _objectSpread(
                           _objectSpread({}, child.props.style || {}),
                           childStyle
@@ -4524,7 +4524,7 @@
                           slideClasses,
                           slideClass
                         ),
-                        "aria-hidden": false,
+                        "aria-hidden": !slideClasses["slick-active"],
                         style: _objectSpread(
                           _objectSpread({}, child.props.style || {}),
                           childStyle
